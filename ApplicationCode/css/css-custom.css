@@ -1,0 +1,43 @@
+body {
+  color:white;
+  background-image: url('https://i.pinimg.com/originals/b7/28/15/b7281550966e19f7c2f62d77fa063747.jpg');
+}
+
+.row {
+  text-align:center;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 50px 0;
+    width: 80%;
+  }
+  th {
+    padding:10px 25px 10px 25px;
+    white-space: nowrap;
+    text-align:center;
+  }
+  td {
+    padding:10px 25px 10px 25px;
+    text-align:center;
+  }
+
+  tr { 
+    border-bottom: 2px solid white;
+    background-color:rgba(34, 34, 34, 0.904);
+  }
+
+  th:not(.sorttable_nosort) {
+    cursor: pointer;
+  }
+
+table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+    content: " \25B4\25BE";
+}
+
+
+.col {
+  background-color:rgba(34, 34, 34, 0.904);
+  padding:10px 0px 10px 0px;
+  text-align:center;
+}
