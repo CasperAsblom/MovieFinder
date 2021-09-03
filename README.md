@@ -1,8 +1,7 @@
 # MovieFinder
 
 ## Introduction
-This web application was developed during the course Knowledge and Data, at Vrije Universiteit Amsterdam. In this course, we were taught to describe data using RDF, query data using SPARQL, describe a domain by encoding an ontology as RDFS and OWL, use inferencing to infer new information, and to integrate multiple ontologies and datasets. The final project was then to build a basic web application that uses the semantic web technology taught in the course. I decided to build a web application that provides users with an easy and efficient way of finding a suitable movie to watch. 
-
+In this project, I use semantic web technology (building and integrating ontologies and datasets, query data using SPARQL) to build a basic web application that provides users with an easy and efficient way of finding a suitable movie to watch. 
 
 ## Screenshots
 
